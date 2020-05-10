@@ -1,0 +1,129 @@
+  
+:root {
+    --basic-color:#212121;
+    --pale-color: #AFB1B8;
+    --accent-color:#2196F3;
+    --main-color: #000000;   
+    --white-color: #ffffff;
+    --paragr-gris-color: #757575;
+  }
+
+  /* body { background-color: var(--pale-color)
+    } */
+  
+/* logo */
+.logo {  
+    color: var(--accent-color);}
+.logo-part {
+    color: var(--main-color);}
+.link {text-decoration: none;}
+
+/* Site nav */
+.site-nav { 
+    color: var(--basic-color);
+}
+
+.site-nav .site-nav-item:hover,
+.site-nav .site-nav-item:focus { 
+    color: var(--accent-color);
+}
+
+.site-nav > link {text-decoration: none;}
+
+.contacts { color: var(--pale-color);}
+
+.contacts .contact-item:hover,
+.contacts .contact-item:focus {
+    color: var(--accent-color)
+}
+
+.contacts link {text-decoration: none;}
+
+.hero {
+    background-color: rgba(50,50,50,50);
+}
+.hero-title  {
+    color: var(--white-color);
+    text-transform:uppercase;
+}
+
+
+.hero .hero-order-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+
+}
+
+.hero .hero-order-button:hover,
+.hero .hero-order-button:focus 
+{ color: var(--pale-color);}
+
+/* Секция1 Особенности компании - features */
+.features {}
+
+.invisible-title {color:rgba(50,50,50,80);}
+
+.features-list .features-titele {
+    color: var(--basic-color);
+
+    text-transform: uppercase;}
+
+.feature-text {color: var(-paragr-gris-color);}
+
+.section-title {
+    color:var(--basic-color);
+
+    text-transform: uppercase;
+}
+
+
+/* Секция 2 - Чем мы занимаемся  */
+.solutions {}
+
+.solutions .item {
+     }
+
+.solutions-title { 
+    color: var(--white-color);
+    background: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;}
+
+
+    /* Секция 3 Наша команда  КАРТОЧКИ */
+.team .name {color: var(--basic-color);}
+.team .position {color: var(--paragr-gris-color);}
+
+
+    
+
+/* Секция 4 Постоянные клиенты */
+.clients {
+
+}
+/*   ПОДВАЛ  */
+
+footer {background: #2F303A;    
+}
+
+footer .logo-part-white {color: var(--white-color);}
+
+footer .adress {color: var(--white-color);}
+
+footer .tel, footer .mail {
+    color: rgba(255, 255, 255, 0.6);}
+
+footer .exclamation {color: var(--white-color);
+text-transform: uppercase;
+}
+
+
+.about {color: rgba(255, 255, 255, 0.4);}
+
+
+/* 
+color: #2196F3;    Лого  голубой  + ховер 
+color: #FFFFFF;    h1, услуги h2  -  белый 
+color: #000000;    услуги  h 
+color: #212121;    карточка h, новигация  
+color: #757575;    карточка параграф и номер телефона  
+ */
