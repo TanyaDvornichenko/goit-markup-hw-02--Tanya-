@@ -29,7 +29,6 @@
     color: var(--accent-color);
 
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -40,7 +39,7 @@
         text-decoration: none;}
 
 /* Site nav */
-.site-nav .site-nav-item { 
+.site-nav .nav-item { 
     color: var(--basic-color);
 
 font-weight: 500;
@@ -50,8 +49,8 @@ letter-spacing: 0.02em;
 }
 
 
-.site-nav .site-nav-item:hover,
-.site-nav .site-nav-item:focus { 
+.site-nav .nav-item:hover,
+.site-nav .nav-item:focus { 
     color: var(--accent-color);
 }
 
@@ -61,7 +60,6 @@ letter-spacing: 0.02em;
     color: var(--pale-color);
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     }
@@ -92,7 +90,7 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 
-.hero-order-button {
+.order-button {
     color: var(--white-color);
     background-color: var(--accent-color);
 
@@ -102,8 +100,8 @@ letter-spacing: 0.02em;
     text-align: center; 
 }
 
-.hero .hero-order-button:hover,
-.hero .hero-order-button:focus 
+.hero .order-button:hover,
+.hero .order-button:focus 
 { background-color: var(--pale-color);}
 
 /* Секция1 Особенности компании - features */
@@ -114,19 +112,13 @@ letter-spacing: 0.02em;
 .features-list .features-titele {
     color: var(--basic-color);
 
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.14;
     text-transform: uppercase;}
 
 .feature-text {
     color: var(-paragr-gris-color);
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;}
+}
 
 .section-title {
     color:var(--basic-color);
@@ -165,7 +157,6 @@ text-align: center;
     }
 .team .position {
     color: var(--paragr-gris-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
@@ -182,21 +173,17 @@ text-align: center;
 footer {background: #2F303A;    
 }
 
-footer .logo-part-white {color: var(--white-color);}
+footer .logo-white {color: var(--white-color);}
 
 footer .adress {
     color: var(--white-color);
 
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
      }
 
 footer .tel, footer .mail {
     color: rgba(255, 255, 255, 0.6);
 
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -204,7 +191,6 @@ footer .exclamation {
     color: var(--white-color);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 
@@ -216,7 +202,6 @@ footer .exclamation {
 color: var(--paragr-gris-color);
 text-decoration: none;
 
-font-weight: 400;
 font-size: 12px;
 line-height: 2;
 text-align: center;
