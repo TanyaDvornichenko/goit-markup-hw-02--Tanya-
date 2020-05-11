@@ -120,6 +120,10 @@ text-transform: uppercase;
 .about {color: rgba(255, 255, 255, 0.4);}
 
 
+  /* СТРАНИЧКА 2_ портфолио  */
+
+.invisible-title-portfolio {color: var(--white-color)}
+
 /* 
 color: #2196F3;    Лого  голубой  + ховер 
 color: #FFFFFF;    h1, услуги h2  -  белый 
