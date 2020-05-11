@@ -40,12 +40,13 @@
 
 /* Site nav */
 .site-nav .nav-item { 
-    color: var(--basic-color);
-
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    color: var(--basic-color);  
+    /* дает ссылкам  новигации цвет принудительно  */
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 
@@ -110,8 +111,7 @@ letter-spacing: 0.02em;
 .invisible-title {color:rgba(50,50,50,80);}
 
 .features-list .features-titele {
-    color: var(--basic-color);
-
+    
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;}
@@ -149,7 +149,6 @@ text-align: center;
 
     /* Секция 3 Наша команда  КАРТОЧКИ */
 .team .name {
-    color: var(--basic-color);
 
     font-weight: 500;
     font-size: 16px;
