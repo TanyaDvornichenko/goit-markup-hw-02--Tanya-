@@ -18,6 +18,9 @@
     line-height: 1.7;
 
     } 
+/* 
+    .list {
+        list-style: none; */
 
   
 /* logo */
@@ -198,6 +201,8 @@ footer .exclamation {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
+
 }
 
 
