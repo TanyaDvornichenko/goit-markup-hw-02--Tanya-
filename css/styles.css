@@ -248,7 +248,9 @@ button {
   font-family: inherit;
 }
 
-.button-pf:hover {
+.button-pf:hover,
+.button-pf:focus,
+.button-pf:active {
   background-color: var(--accent-color);
 }
 .pf-descr {
