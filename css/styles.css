@@ -173,31 +173,40 @@ body {
 } */
 /*   ПОДВАЛ  */
 
-footer {
+.footer {
   background: #2f303a;
 }
 
-footer .logo-white {
-  color: var(--white-color);
+.footer .logo {
+  font-size: 22px;
+  line-height: 1.18;
 }
 
-footer .adress {
+.footer .logo-white {
+  color: var(--white-color);
+
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.footer .adress {
   color: var(--white-color);
 
   line-height: 1.71;
 }
 
-footer .tel,
-footer .mail {
+.footer .tel,
+.footer .mail {
   color: rgba(255, 255, 255, 0.6);
-
   line-height: 1.71;
 }
 
-footer .exclamation {
+.footer .exclamation {
   color: var(--white-color);
+
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -214,6 +223,13 @@ footer .exclamation {
 .about {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
+  font-size: 12px;
+  line-height: 2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .footer-links .link:hover,
@@ -221,7 +237,7 @@ footer .exclamation {
   color: var(--accent-color);
 }
 
-/* СТРАНИЧКА 2_ портфолио  */
+/* ----- СТРАНИЧКА 2_ портфолио-------  */
 
 .invisible-title-portfolio {
   color: var(--white-color);
@@ -241,7 +257,7 @@ button {
 }
 .pf-descr {
   color: var(--paragr-gris-color);
-
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
@@ -249,7 +265,7 @@ button {
 .pf-text {
   background: rgba(33, 150, 243, 0.9);
   color: #ffffff;
-
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
 }
