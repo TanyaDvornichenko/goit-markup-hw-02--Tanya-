@@ -239,10 +239,6 @@ body {
 
 /* ----- СТРАНИЧКА 2_ портфолио-------  */
 
-.invisible-title-portfolio {
-  color: var(--white-color);
-}
-
 .button-pf {
   background-color: #f5f4fa;
   color: var(--basic-color);
