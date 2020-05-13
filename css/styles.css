@@ -112,7 +112,7 @@ body {
 /* Секция1 Особенности компании - features */
 
 .invisible-title {
-  color: rgba(50, 50, 50, 80);
+  color: rgba(50, 50, 50, 0.2);
 }
 
 .features-list .features-titele {
