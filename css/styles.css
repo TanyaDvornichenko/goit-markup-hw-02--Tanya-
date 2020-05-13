@@ -38,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-/* Site nav */
+/* Новигация  */
 .site-nav .nav-item {
   color: var(--basic-color);
   /* дает ссылкам  новигации цвет принудительно  */
@@ -50,7 +50,8 @@ body {
 }
 
 .site-nav .nav-item:hover,
-.site-nav .nav-item:focus {
+.site-nav .nav-item:focus,
+.site-nav .nav-item:active {
   color: var(--accent-color);
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .contacts .contact-item {
-  color: var(--pale-color);
+  color: var(--paragr-gris-color);
 
   font-weight: 500;
   line-height: 1.14;
@@ -67,7 +68,8 @@ body {
 }
 
 .contacts .contact-item:hover,
-.contacts .contact-item:focus {
+.contacts .contact-item:focus,
+.contacts .contact-item:active {
   color: var(--accent-color);
 }
 
@@ -114,21 +116,21 @@ body {
 }
 
 .features-list .features-titele {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.feature-text {
-  color: var(-paragr-gris-color);
+.features .feature-text {
+  color: var(--paragr-gris-color);
 }
 
 .section-title {
-  color: var(--basic-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-transform: uppercase;
+
   text-align: center;
 }
 
