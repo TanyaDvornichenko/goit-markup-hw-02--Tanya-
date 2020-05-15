@@ -16,10 +16,13 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.7;
+  margin: 10px; /* добален для меня для наглядности  */
 }
 
 .list {
   list-style: none;
+
+  padding-left: 0px;
 }
 
 /* logo */
@@ -241,7 +244,17 @@ body {
 
 .button-pf {
   background-color: #f5f4fa;
+  background: #f5f4fa;
   color: var(--basic-color);
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 button {
@@ -252,6 +265,7 @@ button {
 .button-pf:focus,
 .button-pf:active {
   background-color: var(--accent-color);
+  color: var(--white-color);
 }
 .pf-descr {
   color: var(--paragr-gris-color);
